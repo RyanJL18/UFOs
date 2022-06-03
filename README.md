@@ -1,11 +1,11 @@
 # UFOs
 Filtering and interpreting data on UFO sightings around the United States.
 ## Overview
-Using Javascript and HTML we were tasked with creating a table filled with information about UFO Sightings. Along with this table presented on an HTML Page, we were tasked with being able to sift through the data and find coresponding values within the table using a filtered search bar. With this HTML Page in use, we can filter and compare a large number of sightings depending on the criteria input.
+Using JavaScript and HTML we were tasked with creating a table filled with information about UFO Sightings. Along with this table presented on an HTML Page, we were tasked with being able to sift through the data and find corresponding values within the table using a filtered search bar. With this HTML Page in use, we can filter and compare a large number of sightings depending on the criteria input.
 ## Results
 ![Page_Screenshot.png](https://github.com/RyanJL18/UFOs/blob/main/Resources/Page%20Screenshot.png)
 
-This was the final result for the page that was created. As you can see, there is a heading with a background image, a description that gives insight as to the function of the table, and multiple search bars that offer the opportunity to narrow down search results with multiple inputs. This offers the opportunity to get very specific when looking into the presented data.
+This was the result for the page that was created. As you can see, there is a heading with a background image, a description that gives insight as to the function of the table, and multiple search bars that offer the opportunity to narrow down search results with multiple inputs. This offers the opportunity to get very specific when looking into the presented data.
 
 The Utility of these multiple search bars was made by creating a filter table in the HTML as follows:
 ```
@@ -47,12 +47,12 @@ The Utility of these multiple search bars was made by creating a filter table in
           </div>
 ```
 
-With this code, we created the search bar that functions with one or multiple inputs, narrowing down the data as more seaches are used. As you can see with the examples below, using one search criteria like the shape offers an opportunity to compare entires with only one value in common, while adding values into both the state and country offers more specific results to compare.
+With this code, we created the search bar that functions with one or multiple inputs, narrowing down the data as more searches are used. As you can see with the examples below, using one search criteria like the shape offers an opportunity to compare entries with only one value in common, while adding values into both the state and country offers more specific results to compare.
 
 ![Search_Example.png](https://github.com/RyanJL18/UFOs/blob/main/Resources/Search%20Example.png)
 
 ![Search_Example2.png](https://github.com/RyanJL18/UFOs/blob/main/Resources/Search%20Example2.png)
 
 ## Final Thoughts
-This ability to filter data in this way can be very useful! We were able to narrow down results based on multiple inputs and find entries with matching criteria that we could compare for further investigation into the question "Are UFO's Real?" However, this utility does have a couple drawbacks. One specific drawback that I ran into while testing was if your input did not match any of the entries, you would not receive any outputs. That is a success because it is exactly what we told the code to do, but could be offputting to new users. This also only filters the data if it is written exactly as the value is written, which does cause for case sensitivity issues. A suggestion for rectifying this issue would be to potentially add a drop down menu with the available options, so that new users could find entries with ease.
+This ability to filter data in this way can be very useful! We were able to narrow down results based on multiple inputs and find entries with matching criteria that we could compare for further investigation into the question "Are UFO's Real?" However, this utility does have a couple drawbacks. One specific drawback that I ran into while testing was if your input did not match any of the entries, you would not receive any outputs. That is a success because it is exactly what we told the code to do but could be off putting to new users. This also only filters the data if it is written exactly as the value is written, which does cause for case sensitivity issues. A suggestion for rectifying this issue would be to potentially add a drop-down menu with the available options, so that new users could find entries with ease.
 
